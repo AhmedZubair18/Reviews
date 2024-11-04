@@ -1,0 +1,53 @@
+.container{
+  width: 300px;
+  height: 420px;
+  background-color:white;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  top: 40px;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+ display: flex;
+ justify-content: center;
+  
+}
+
+#image {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  margin: 10px;
+}
+.btn{
+ position: relative;
+ bottom:25px;
+ padding: 8px;
+ margin: 5px;
+ border-radius: 5px;
+ cursor: pointer;
+}
+.btn:hover{
+  background-color: blue;
+  color: white;
+}
+#heading{
+  position: relative;
+  bottom: 20px;
+}
+.paragraph{
+  position: relative;
+  bottom: 26px;
+}
+body{
+  background-color:paleturquoise;
+}
+.container:hover{
+  width: 305px;
+  height: 425px;
+  transform: scale(1.02);
+}
